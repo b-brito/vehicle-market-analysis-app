@@ -6,7 +6,7 @@ st.set_page_config(page_title="Análise de Veículos - Sprint 5", layout="wide")
 st.header("Dashboard – Análise de Veículos (TripleTen Sprint 5)")
 
 # ===== dados da raiz do repo =====
-df = pd.read_csv("vehicles_us.csv")
+df = pd.read_csv("data/vehicles_us.csv")
 
 # ===== pré-processamento (igual ao seu notebook) =====
 for c in ['cylinders', 'is_4wd', 'date_posted']:
